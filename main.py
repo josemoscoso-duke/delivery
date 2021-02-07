@@ -15,7 +15,7 @@ def name(value):
     return jsonify(val)
 
 @app.route('/catalina')
-def pepe():
+def catalina():
     val = {"value": "catalina"}
     return jsonify(val)
 
