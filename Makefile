@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	#python -m pytest -vv --cov=myrepolib tests/*.py
+	python -m pytest -vv --cov=delivery main_test.py
 	#python -m pytest --nbval notebook.ipynb
 
 
